@@ -2,11 +2,10 @@ pipeline{
 
     agent any
 
-// uncomment the following lines by removing /* and */ to enable
-/*    tools{
+    tools{
        maven 'Maven 3.6.3' 
     }
-*/    
+   
 
     stages{
         stage('one'){
