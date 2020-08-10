@@ -1,3 +1,8 @@
+/*CartsJenkinsPipeline
+This Jenkins file will run in jenkins environment and creates and artifact carts.jar 
+available in /targets/ folder
+*/
+
 pipeline {
   agent any
   stages {
