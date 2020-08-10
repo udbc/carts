@@ -30,7 +30,7 @@ pipeline {
     }
 
   }
-  environment {
+  tools {
     maven = 'Maven3.6.3'
   }
 }
