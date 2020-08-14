@@ -16,7 +16,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing'
-                sh 'mvn clean test
+                sh 'mvn clean test'
             }
         }
         stage('Packaging') {
