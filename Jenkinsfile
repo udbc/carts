@@ -40,7 +40,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         script {
           docker.withRegistry('https://index.docker.io/v1/', 'dockerlogin') {
